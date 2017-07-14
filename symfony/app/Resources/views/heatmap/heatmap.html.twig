@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<h2>Demo</h2>
+<h2>Date and time</h2>
 <div id="map"></div>
 
 <script>
@@ -18,7 +18,7 @@
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 <script src="/plugins/leaflet-heatmap/leaflet-heatmap.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="/js/main.js?ts=<?=time()?>"></script>
+<script src="/js/main.js?ts={{ 'now'|date('U') }}"></script>
 
 </body>
 </html>

@@ -18,7 +18,7 @@ class HeatmapController extends Controller
      */
     public function index()
     {
-        $dataByPoint = [];
+        $dataByDate = [];
         $em = $this->getDoctrine()->getManager();
 //        $data = $this->getDoctrine()->getRepository('AppBundle:Recording')
 //            ->cr
@@ -30,20 +30,61 @@ class HeatmapController extends Controller
             ->getQuery()->getResult();
 //        print_r($data);
 
+        $last_city = '';
+
         foreach ($data as $item) {
-            $name = $item['name'];
-            if (!isset($dataByPoint[$name])) {
-                $dataByPoint[$name] = [];
+            $for_date = $item['for_date']->format('Y-m-d H:i:s');
+
+            if (!isset($dataByDate[$for_date])) {
+                $dataByDate[$for_date] = [
+                    'data' => [],
+                    'for_date' => $for_date
+                ];
             }
-            $dataByPoint[$name][] = [
-                'lat' => (float) $item['lat'],
-                'lng' => (float) $item['lon'],
+            $dataByDate[$for_date]['data'][] = [
+                'lat' => (float)$item['lat'],
+                'lng' => (float)$item['lon'],
                 'count' => $item['traffic_10_min']
             ];
         }
 
+        foreach ($dataByDate as $key => $item) {
+            $min = 0;
+            $max = $item['data'][0]['count'];
+            foreach ($item['data'] as $item2) {
+                if ($item2['count'] < $min) {
+                    $min = $item2['count'];
+                }
+                if ($item2['count'] > $max) {
+                    $max = $item2['count'];
+                }
+            }
+            $dataByDate[$key]['min'] = $min;
+            $dataByDate[$key]['max'] = $max;
+        }
+
+        // normalize min/max
+        $min = 0;
+        $max = 0;
+        foreach ($dataByDate as $key => $item){
+            if ($item['min'] < $min) {
+                $min = $dataByDate[$key]['min'];
+            }
+            if ($item['max'] > $max) {
+                $max = $dataByDate[$key]['max'];
+            }
+        }
+
+        // set new min/max
+        foreach ($dataByDate as $key => $item){
+            $dataByDate[$key]['min'] = $min;
+            $dataByDate[$key]['max'] = $max;
+        }
+        ksort($dataByDate);
+
+
         return $this->render('heatmap/heatmap.html.twig', [
-            'data' => $dataByPoint
+            'data' => array_values($dataByDate)
         ]);
     }
 
