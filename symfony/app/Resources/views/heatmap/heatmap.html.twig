@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+
+<h2>Demo</h2>
+<div id="map"></div>
+
+<script>
+    var data = {{ data | json_encode|raw }}
+</script>
+<script src="/js/heatmap.js"></script>
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script src="/plugins/leaflet-heatmap/leaflet-heatmap.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="/js/main.js?ts=<?=time()?>"></script>
+
+</body>
+</html>

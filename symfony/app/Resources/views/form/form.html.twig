@@ -1,0 +1,35 @@
+<h1>Form test</h1>
+
+{{ form_start(form) }}
+{{ form_widget(form) }}
+{{ form_end(form) }}
+
+<h2>All products</h2>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Description</th>
+        <th>Category</th>
+        <th>Actions</th>
+    </tr>
+
+{% for item in list %}
+    <tr>
+        <td>{{ item.name }}</td>
+        <td>{{ item.price }}</td>
+        <td>{{ item.description }}</td>
+        <td>
+            {% if (item.category) %}
+                {{ item.category.name }}
+            {% endif %}
+        </td>
+        <td>
+            <a href="/form/{{ item.id }}">Edit</a> |
+            <a href="/form/delete/{{ item.id }}">Delete</a> |
+        </td>
+    </tr>
+{% endfor %}
+
+</table>
