@@ -25,8 +25,10 @@ class HeatmapController extends Controller
         $data = $em->getRepository('AppBundle:Recording')
             ->createQueryBuilder('recording')
             ->select(' recording.name, recording.lat, recording.lon, recording.traffic_10_min, recording.for_date')
+            ->where('recording.for_date > ?1')
             ->orderBy('recording.name', 'asc')
             ->addOrderBy('recording.for_date', 'asc')
+            ->setParameter(1, '2017-07-14 11:00:00')
             ->getQuery()->getResult();
 //        print_r($data);
 
@@ -34,11 +36,13 @@ class HeatmapController extends Controller
 
         foreach ($data as $item) {
             $for_date = $item['for_date']->format('Y-m-d H:i:s');
+            $min_number = $item['for_date']->format('H') * 60 + $item['for_date']->format('i');
 
             if (!isset($dataByDate[$for_date])) {
                 $dataByDate[$for_date] = [
                     'data' => [],
-                    'for_date' => $for_date
+                    'for_date' => $for_date,
+                    'min_number' => $min_number
                 ];
             }
             $dataByDate[$for_date]['data'][] = [

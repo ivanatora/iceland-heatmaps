@@ -4,12 +4,22 @@
     <meta charset="UTF-8"/>
 
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/sunny/jquery-ui.css">
+
+    <link rel="stylesheet" href="/css/styles.css?ts={{ 'now'|date('U') }}"/>
 </head>
 <body>
 
-<h2>Date and time</h2>
+<h1>Date and time</h1>
+<div id="slider"></div>
 <div id="map"></div>
+
+<div class="legend-area">
+    <h4>Cars, last 10 min</h4>
+    <span id="min"></span>
+    <span id="max"></span>
+    <img id="gradient" src="" style="width:100%"/>
+</div>
 
 <script>
     var data = {{ data | json_encode|raw }}
@@ -18,6 +28,7 @@
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 <script src="/plugins/leaflet-heatmap/leaflet-heatmap.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="/js/main.js?ts={{ 'now'|date('U') }}"></script>
 
 </body>
