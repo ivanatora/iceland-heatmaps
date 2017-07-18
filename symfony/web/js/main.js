@@ -38,7 +38,7 @@ $(document).ready(function () {
 
     var cfg = {
         // radius should be small ONLY if scaleRadius is true (or small radius is intended)
-        "radius": 2,
+        "radius": 0.5,
         "maxOpacity": .8,
         // scales the radius based on map zoom
         "scaleRadius": true,

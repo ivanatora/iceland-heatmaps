@@ -1,0 +1,3 @@
+# m h  dom mon dow   command
+*/5 * * * * echo `date`>>/tmp/cronz.log
+

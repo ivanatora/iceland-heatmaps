@@ -1,40 +1,32 @@
-FROM alpine:3.4
+FROM php:7-fpm
 
-MAINTAINER Vincent Composieux <vincent.composieux@gmail.com>
+RUN apt-get update && apt-get install -y --no-install-recommends \
+#        libpq-dev \
+#        libzip-dev \
+        libicu-dev \
+#        libfreetype6-dev \
+#        libjpeg62-turbo-dev \
+#        libpng12-dev \
+#        libwebp-dev \
+#    && docker-php-ext-configure gd --with-freetype-dir=/usr/include/ \
+#        --with-jpeg-dir=/usr/include/ \
+#        --with-png-dir=/usr/include/ \
+#    && docker-php-ext-install -j$(nproc) gd \
+    && docker-php-ext-install pdo \
+    && docker-php-ext-install pdo_mysql \
+    && docker-php-ext-install mysqli \
+    && docker-php-ext-install intl \
+    && rm -rf /var/lib/apt/lists/*
 
-RUN apk add --update \
-    php5-fpm \
-    php5-apcu \
-    php5-ctype \
-    php5-curl \
-    php5-dom \
-    php5-gd \
-    php5-iconv \
-    php5-imagick \
-    php5-json \
-    php5-intl \
-    php5-mcrypt \
-    php5-mysql \
-    php5-opcache \
-    php5-openssl \
-    php5-pdo \
-    php5-pdo_mysql \
-    php5-mysqli \
-    php5-xml \
-    php5-zlib \
-    php5-phar \
-    curl
 
-RUN rm -rf /var/cache/apk/* && rm -rf /tmp/*
+ADD symfony.ini /etc/php7.0/fpm/conf.d/
+ADD symfony.ini /etc/php7.0/cli/conf.d/
 
-RUN curl --insecure https://getcomposer.org/composer.phar -o /usr/bin/composer && chmod +x /usr/bin/composer
+ADD symfony.pool.conf /etc/php7.0/fpm.d/
 
-ADD symfony.ini /etc/php5/fpm/conf.d/
-ADD symfony.ini /etc/php5/cli/conf.d/
-
-ADD symfony.pool.conf /etc/php5/fpm.d/
-
-CMD ["php-fpm", "-F"]
+CMD ["php-fpm"]
+#CMD ["php-fpm", "-F"]
+#CMD bash
 
 WORKDIR /var/www/symfony
 EXPOSE 9000

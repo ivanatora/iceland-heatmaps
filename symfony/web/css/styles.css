@@ -38,7 +38,7 @@ h1 {
 .legend-area {
     position: absolute;
     bottom: 0;
-    right: 0;
+    left: 0;
     padding: 10px;
     background: #fff;
     outline: 3px solid #000;

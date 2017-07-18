@@ -44,9 +44,17 @@ class appProdProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBundle\R
             return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::indexAction',  '_route' => 'homepage',);
         }
 
-        // app_heatmap_index
-        if ('/heatmap' === $pathinfo) {
-            return array (  '_controller' => 'AppBundle\\Controller\\HeatmapController::index',  '_route' => 'app_heatmap_index',);
+        if (0 === strpos($pathinfo, '/heatmap')) {
+            // app_heatmap_index
+            if ('/heatmap' === $pathinfo) {
+                return array (  '_controller' => 'AppBundle\\Controller\\HeatmapController::index',  '_route' => 'app_heatmap_index',);
+            }
+
+            // app_heatmap_condensed
+            if ('/heatmap/condensed' === $pathinfo) {
+                return array (  '_controller' => 'AppBundle\\Controller\\HeatmapController::condensed',  '_route' => 'app_heatmap_condensed',);
+            }
+
         }
 
         // app_test_number
