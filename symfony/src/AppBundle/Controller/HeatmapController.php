@@ -10,13 +10,14 @@ use Symfony\Component\HttpFoundation\Response;
 use AppBundle\Entity\Recording;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpFoundation\Request;
+use AppBundle\Services\DataFormatter;
 
 class HeatmapController extends Controller
 {
     /**
      * @Route("/heatmap")
      */
-    public function index()
+    public function index(Request $request, DataFormatter $dataFormatter)
     {
         $dataByDate = [];
         $em = $this->getDoctrine()->getManager();
@@ -25,67 +26,14 @@ class HeatmapController extends Controller
         $data = $em->getRepository('AppBundle:Recording')
             ->createQueryBuilder('recording')
             ->select(' recording.name, recording.lat, recording.lon, recording.traffic_10_min, recording.for_date')
-            ->where('recording.for_date > ?1')
+//            ->where('recording.for_date > ?1')
             ->orderBy('recording.name', 'asc')
             ->addOrderBy('recording.for_date', 'asc')
-            ->setParameter(1, '2017-07-17 00:00:00')
+//            ->setParameter(1, '2017-07-17 00:00:00')
             ->getQuery()->getResult();
 //        print_r($data);
 
-        $last_city = '';
-
-        foreach ($data as $item) {
-            $for_date = $item['for_date']->format('Y-m-d H:i:s');
-            $min_number = $item['for_date']->format('H') * 60 + $item['for_date']->format('i');
-
-            if (!isset($dataByDate[$for_date])) {
-                $dataByDate[$for_date] = [
-                    'data' => [],
-                    'for_date' => $for_date,
-                    'min_number' => $min_number
-                ];
-            }
-            $dataByDate[$for_date]['data'][] = [
-                'lat' => (float)$item['lat'],
-                'lng' => (float)$item['lon'],
-                'count' => $item['traffic_10_min']
-            ];
-        }
-
-        foreach ($dataByDate as $key => $item) {
-            $min = 0;
-            $max = $item['data'][0]['count'];
-            foreach ($item['data'] as $item2) {
-                if ($item2['count'] < $min) {
-                    $min = $item2['count'];
-                }
-                if ($item2['count'] > $max) {
-                    $max = $item2['count'];
-                }
-            }
-            $dataByDate[$key]['min'] = $min;
-            $dataByDate[$key]['max'] = $max;
-        }
-
-        // normalize min/max
-        $min = 0;
-        $max = 0;
-        foreach ($dataByDate as $key => $item){
-            if ($item['min'] < $min) {
-                $min = $dataByDate[$key]['min'];
-            }
-            if ($item['max'] > $max) {
-                $max = $dataByDate[$key]['max'];
-            }
-        }
-
-        // set new min/max
-        foreach ($dataByDate as $key => $item){
-            $dataByDate[$key]['min'] = $min;
-            $dataByDate[$key]['max'] = $max;
-        }
-        ksort($dataByDate);
-
+        $dataByDate = $dataFormatter->format($data);
 
         return $this->render('heatmap/heatmap.html.twig', [
             'data' => array_values($dataByDate)
@@ -97,7 +45,7 @@ class HeatmapController extends Controller
      * @Route("/heatmap/condensed")
      */
 
-    public function condensed()
+    public function condensed(DataFormatter $dataFormatter)
     {
         $dataByDate = [];
         $em = $this->getDoctrine()->getManager();
@@ -152,57 +100,31 @@ class HeatmapController extends Controller
 //        exit();
         $last_city = '';
 
-        foreach ($data as $item) {
-            $for_date = $item['for_date']->format('Y-m-d H:i:s');
-            $min_number = $item['for_date']->format('H') * 60 + $item['for_date']->format('i');
+        $dataByDate = $dataFormatter->format($data, 'traffic_day');
 
-            if (!isset($dataByDate[$for_date])) {
-                $dataByDate[$for_date] = [
-                    'data' => [],
-                    'for_date' => $for_date,
-                    'min_number' => $min_number
-                ];
-            }
-            $dataByDate[$for_date]['data'][] = [
-                'lat' => (float)$item['lat'],
-                'lng' => (float)$item['lon'],
-                'count' => $item['traffic_day']
-            ];
-        }
 
-        foreach ($dataByDate as $key => $item) {
-            $min = 0;
-            $max = $item['data'][0]['count'];
-            foreach ($item['data'] as $item2) {
-                if ($item2['count'] < $min) {
-                    $min = $item2['count'];
-                }
-                if ($item2['count'] > $max) {
-                    $max = $item2['count'];
-                }
-            }
-            $dataByDate[$key]['min'] = $min;
-            $dataByDate[$key]['max'] = $max;
-        }
+        return $this->render('heatmap/heatmap.html.twig', [
+            'data' => array_values($dataByDate)
+        ]);
+    }
 
-        // normalize min/max
-        $min = 0;
-        $max = 0;
-        foreach ($dataByDate as $key => $item){
-            if ($item['min'] < $min) {
-                $min = $dataByDate[$key]['min'];
-            }
-            if ($item['max'] > $max) {
-                $max = $dataByDate[$key]['max'];
-            }
-        }
+    /**
+     * @Route("/heatmap/single/{date}")
+     */
+    public function single($date, Request $request, DataFormatter $dataFormatter)
+    {
+        $date = date('Y-m-d H:i:s', strtotime($date));
+        $em = $this->getDoctrine()->getManager();
+        $data = $em->getRepository('AppBundle:Recording')
+            ->createQueryBuilder('recording')
+            ->select(' recording.name, recording.lat, recording.lon, recording.traffic_10_min, recording.for_date')
+            ->where('recording.for_date = ?1')
+            ->orderBy('recording.name', 'asc')
+            ->addOrderBy('recording.for_date', 'asc')
+            ->setParameter(1, $date)
+            ->getQuery()->getResult();
 
-        // set new min/max
-        foreach ($dataByDate as $key => $item){
-            $dataByDate[$key]['min'] = $min;
-            $dataByDate[$key]['max'] = $max;
-        }
-        ksort($dataByDate);
+        $dataByDate = $dataFormatter->format($data);
 
 
         return $this->render('heatmap/heatmap.html.twig', [

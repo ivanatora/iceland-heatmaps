@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b0a367-fcfc-4cd8-8664-8beb73a5eeb1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/symfony/var/logs/dev.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/1/M/X6lBsrSatyLPWx+5UOYB" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/1/M/X6lBsrSatyLPWx+5UOYB" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/2/B/QHipjY4PbrBkCWanegqo" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/2/B/QHipjY4PbrBkCWanegqo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/G/P/4QPf3Ds776Xj8vCE8qgT" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/G/P/4QPf3Ds776Xj8vCE8qgT" />
@@ -12,12 +11,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Q/5/CW+K+AUK1GfdUam2TqGV" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Q/5/CW+K+AUK1GfdUam2TqGV" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/V/D/tPmmrWutoPFv3lXMhST2" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/V/D/tPmmrWutoPFv3lXMhST2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/W/H/ZK6FS27PDyfupu9KjeAS" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/W/H/ZK6FS27PDyfupu9KjeAS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nginx/Dockerfile" afterPath="$PROJECT_DIR$/nginx/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nginx/symfony.conf" afterPath="$PROJECT_DIR$/nginx/symfony.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php-fpm/Dockerfile" afterPath="$PROJECT_DIR$/php-fpm/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/app/config/services.yml" afterPath="$PROJECT_DIR$/symfony/app/config/services.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/src/AppBundle/Controller/HeatmapController.php" afterPath="$PROJECT_DIR$/symfony/src/AppBundle/Controller/HeatmapController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/appProdProjectContainer.php" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/appProdProjectContainer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/appProdProjectContainer.php.meta" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/appProdProjectContainer.php.meta" />
@@ -97,8 +92,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Z/F/0Yeq0iing0Jwkna5vDnY" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Z/F/0Yeq0iing0Jwkna5vDnY" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/logs/prod.log" afterPath="$PROJECT_DIR$/symfony/var/logs/prod.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/sessions/prod/sess_c01e540be01e2cfae00a0ba3ced7029f" afterPath="$PROJECT_DIR$/symfony/var/sessions/prod/sess_c01e540be01e2cfae00a0ba3ced7029f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/web/css/styles.css" afterPath="$PROJECT_DIR$/symfony/web/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/web/js/main.js" afterPath="$PROJECT_DIR$/symfony/web/js/main.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -125,11 +118,31 @@
       <file leaf-file-name="HeatmapController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/symfony/src/AppBundle/Controller/HeatmapController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="787">
-              <caret line="159" column="42" lean-forward="false" selection-start-line="159" selection-start-column="42" selection-end-line="159" selection-end-column="42" />
+            <state relative-caret-position="442">
+              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
               <folding>
                 <element signature="e#40#64#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataFormatter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symfony/src/AppBundle/Services/DataFormatter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symfony/app/config/services.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,7 +161,7 @@
         <entry file="file://$PROJECT_DIR$/php-fpm/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -190,13 +203,15 @@
         <option value="$PROJECT_DIR$/symfony/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/symfony/web/js/main.js" />
         <option value="$PROJECT_DIR$/symfony/web/css/styles.css" />
-        <option value="$PROJECT_DIR$/symfony/src/AppBundle/Controller/HeatmapController.php" />
         <option value="$PROJECT_DIR$/cron/Dockerfile" />
         <option value="$PROJECT_DIR$/cron/crontab" />
         <option value="$PROJECT_DIR$/nginx/Dockerfile" />
         <option value="$PROJECT_DIR$/nginx/symfony.conf" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/php-fpm/Dockerfile" />
+        <option value="$PROJECT_DIR$/symfony/app/config/services.yml" />
+        <option value="$PROJECT_DIR$/symfony/src/AppBundle/Services/DataFormatter.php" />
+        <option value="$PROJECT_DIR$/symfony/src/AppBundle/Controller/HeatmapController.php" />
       </list>
     </option>
   </component>
@@ -243,6 +258,126 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,12 +547,12 @@
       <option name="presentableId" value="Default" />
       <updated>1499244826120</updated>
       <workItem from="1499244827217" duration="32793000" />
-      <workItem from="1500269337764" duration="10642000" />
+      <workItem from="1500269337764" duration="12400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43435000" />
+    <option name="totallyTimeSpent" value="45193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="1" width="1600" height="1173" extended-state="6" />
@@ -587,13 +722,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/symfony/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/symfony/app/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -833,15 +961,31 @@
     <entry file="file://$PROJECT_DIR$/php-fpm/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony/src/AppBundle/Services/DataFormatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/symfony/src/AppBundle/Controller/HeatmapController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="787">
-          <caret line="159" column="42" lean-forward="false" selection-start-line="159" selection-start-column="42" selection-end-line="159" selection-end-column="42" />
+        <state relative-caret-position="442">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
           <folding>
             <element signature="e#40#64#0#PHP" expanded="true" />
           </folding>
