@@ -2,96 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b0a367-fcfc-4cd8-8664-8beb73a5eeb1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/1/M/X6lBsrSatyLPWx+5UOYB" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/1/M/X6lBsrSatyLPWx+5UOYB" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/2/B/QHipjY4PbrBkCWanegqo" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/2/B/QHipjY4PbrBkCWanegqo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/G/P/4QPf3Ds776Xj8vCE8qgT" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/G/P/4QPf3Ds776Xj8vCE8qgT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/J/Z/VgMKJPRu8CMLuNtchG53" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/J/Z/VgMKJPRu8CMLuNtchG53" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/N/B/9d-s0qQbkmjH8UUQ3RTc" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/N/B/9d-s0qQbkmjH8UUQ3RTc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/O/C/kk2eNsXNvqLNJlgjx8Lp" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/O/C/kk2eNsXNvqLNJlgjx8Lp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Q/5/CW+K+AUK1GfdUam2TqGV" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Q/5/CW+K+AUK1GfdUam2TqGV" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/V/D/tPmmrWutoPFv3lXMhST2" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/V/D/tPmmrWutoPFv3lXMhST2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/W/H/ZK6FS27PDyfupu9KjeAS" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/W/H/ZK6FS27PDyfupu9KjeAS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/app/config/services.yml" afterPath="$PROJECT_DIR$/symfony/app/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/app/Resources/views/heatmap/heatmap.html.twig" afterPath="$PROJECT_DIR$/symfony/app/Resources/views/heatmap/heatmap.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/src/AppBundle/Controller/HeatmapController.php" afterPath="$PROJECT_DIR$/symfony/src/AppBundle/Controller/HeatmapController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/appProdProjectContainer.php" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/appProdProjectContainer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/appProdProjectContainer.php.meta" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/appProdProjectContainer.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/appProdProjectContainerUrlMatcher.php" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/appProdProjectContainerUrlMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/+/R/dymvuI1FI9kZ1t+bJrz+" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/+/R/dymvuI1FI9kZ1t+bJrz+" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/-/4/8yKau2BsDNSV7xAFHNOZ" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/-/4/8yKau2BsDNSV7xAFHNOZ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/2/3/qDueb1sRA5W9kmc52fN5" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/2/3/qDueb1sRA5W9kmc52fN5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/2/6/WmFq7KnhXhT6nTqbi0Jp" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/2/6/WmFq7KnhXhT6nTqbi0Jp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/2/K/MQoF8m07dQoyPX9XhFwT" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/2/K/MQoF8m07dQoyPX9XhFwT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/2/N/nZC9Sikm27sTRcbDmRHK" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/2/N/nZC9Sikm27sTRcbDmRHK" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/3/D/gzqvLxbfiASNJ7ywAnEX" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/3/D/gzqvLxbfiASNJ7ywAnEX" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/5/D/8BXlBS0PNl+Gb+FrCXpm" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/5/D/8BXlBS0PNl+Gb+FrCXpm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/5/H/ajbQghgPEk630y0pEhTq" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/5/H/ajbQghgPEk630y0pEhTq" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/6/J/IMkBoYMjdX2Z4ZZv-O52" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/6/J/IMkBoYMjdX2Z4ZZv-O52" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/6/Y/OhRaSn0sVJKly5scp4TI" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/6/Y/OhRaSn0sVJKly5scp4TI" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/7/T/y7Zx1DD9xkqmm69SHFLY" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/7/T/y7Zx1DD9xkqmm69SHFLY" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/8/R/nb2+LxVdNJnPi9ibI8CB" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/8/R/nb2+LxVdNJnPi9ibI8CB" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/9/E/eWidpzsnNwVVEcL7MPEd" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/9/E/eWidpzsnNwVVEcL7MPEd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/9/H/WTf+QdHJgXpNXmH3YgmR" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/9/H/WTf+QdHJgXpNXmH3YgmR" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/A/-/dy5AixRWJfAbm5M2t3hv" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/A/-/dy5AixRWJfAbm5M2t3hv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/A/I/S-87qo5zsUKl+mYL-kqy" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/A/I/S-87qo5zsUKl+mYL-kqy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/A/M/WrdXHJ0UINb0E18nGQA1" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/A/M/WrdXHJ0UINb0E18nGQA1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/A/S/Cbd118ihj2hskxrWRrbD" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/A/S/Cbd118ihj2hskxrWRrbD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/C/M/h3wJWhrzoR6qbEQQpS3K" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/C/M/h3wJWhrzoR6qbEQQpS3K" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/D/5/v-yCucd+2a3nXm4ukgM9" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/D/5/v-yCucd+2a3nXm4ukgM9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/D/H/DjmJrPlxNfPeCqzSbL6f" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/D/H/DjmJrPlxNfPeCqzSbL6f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/D/W/KhYHP6V60bIyQuXIxQQa" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/D/W/KhYHP6V60bIyQuXIxQQa" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/F/G/m6lqro3NPBqUlgjH7iyu" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/F/G/m6lqro3NPBqUlgjH7iyu" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/F/K/Z8dK1RrufvR+DL0ZIT3H" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/F/K/Z8dK1RrufvR+DL0ZIT3H" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/F/T/3aI-mif-vhXoUOkndnOl" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/F/T/3aI-mif-vhXoUOkndnOl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/F/T/FyQxolfJLVghBgo8JKDg" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/F/T/FyQxolfJLVghBgo8JKDg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/G/L/9q6FU+yYDtFfJDo393eL" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/G/L/9q6FU+yYDtFfJDo393eL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/G/V/6iHRKi9ZkQWJq5vIXT5d" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/G/V/6iHRKi9ZkQWJq5vIXT5d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/H/-/YLKkA40R9hGfvE+TypGl" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/H/-/YLKkA40R9hGfvE+TypGl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/H/A/OKwsmiaeWeXU29NcQ7X5" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/H/A/OKwsmiaeWeXU29NcQ7X5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/I/5/chIHOx1o6+SLSW7cqiny" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/I/5/chIHOx1o6+SLSW7cqiny" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/I/7/iuYaVs5mFQ7rm+bDBTqf" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/I/7/iuYaVs5mFQ7rm+bDBTqf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/I/X/BQFAQzVf6QSznoovn3AI" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/I/X/BQFAQzVf6QSznoovn3AI" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/J/E/84yxqyEYtP2w0pIN0VxZ" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/J/E/84yxqyEYtP2w0pIN0VxZ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/J/Q/HwD65mDiac7q64uEYw84" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/J/Q/HwD65mDiac7q64uEYw84" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/J/S/TRv2Eupj1HWY74NqcJ23" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/J/S/TRv2Eupj1HWY74NqcJ23" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/J/Z/NH5TaViPVIv2yLQmkTtU" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/J/Z/NH5TaViPVIv2yLQmkTtU" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/K/U/uF9PWuroDGUIcu04z2pt" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/K/U/uF9PWuroDGUIcu04z2pt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/L/H/yJMZrWkR9WrIscbbQC7r" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/L/H/yJMZrWkR9WrIscbbQC7r" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/L/I/ijPStLtzSODJWNrR24gn" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/L/I/ijPStLtzSODJWNrR24gn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/M/M/RpqAPrIXYra4MSQJiuN5" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/M/M/RpqAPrIXYra4MSQJiuN5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/M/V/WuOb6Hy7p3Luo4Dl47yj" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/M/V/WuOb6Hy7p3Luo4Dl47yj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/N/3/X7GeEq6yzvVVIgfOov3o" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/N/3/X7GeEq6yzvVVIgfOov3o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/N/H/6hZ9c9WtzCILqJTuOl6v" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/N/H/6hZ9c9WtzCILqJTuOl6v" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/O/S/NIom65FTazzK8jbRDIJJ" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/O/S/NIom65FTazzK8jbRDIJJ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Q/I/YBxQcdit2awjSolM9ef7" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Q/I/YBxQcdit2awjSolM9ef7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Q/W/4Qum0xMOblX1ETi3s5HC" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Q/W/4Qum0xMOblX1ETi3s5HC" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Q/Z/7CCqf9-1m0v4ILmjQWso" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Q/Z/7CCqf9-1m0v4ILmjQWso" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/R/6/BnYFoNNsW8AId5gcvdJ2" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/R/6/BnYFoNNsW8AId5gcvdJ2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/R/9/gO4L-OnOoflaS5r7I6QL" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/R/9/gO4L-OnOoflaS5r7I6QL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/R/T/1DjrECv-2TuXfR+xR-Eu" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/R/T/1DjrECv-2TuXfR+xR-Eu" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/R/U/FfPR9dtKJ-+vfjlI4zAD" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/R/U/FfPR9dtKJ-+vfjlI4zAD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/R/W/j+meHobzhgNe9VRfLqmr" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/R/W/j+meHobzhgNe9VRfLqmr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/S/C/oloD-jnY1W1sWMCuf6Cm" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/S/C/oloD-jnY1W1sWMCuf6Cm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/S/K/8YMYJkU6IbXK99i4aglw" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/S/K/8YMYJkU6IbXK99i4aglw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/S/Q/tWC-cyXvSFPknhFNcWTI" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/S/Q/tWC-cyXvSFPknhFNcWTI" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/S/R/kEJM8Z-6DCB-B1THl--g" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/S/R/kEJM8Z-6DCB-B1THl--g" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/T/B/myyfxRlR2NIk96Abo6Ta" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/T/B/myyfxRlR2NIk96Abo6Ta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/T/H/6y8z6GcinM0nBp3UBN+q" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/T/H/6y8z6GcinM0nBp3UBN+q" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/V/0/QxO2M+KkvHgv1JEB9qNB" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/V/0/QxO2M+KkvHgv1JEB9qNB" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/V/C/7Y3VTL9M9T7AU1qZDOrU" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/V/C/7Y3VTL9M9T7AU1qZDOrU" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/V/H/YJWVQKhE0QL+CSE-Rb7x" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/V/H/YJWVQKhE0QL+CSE-Rb7x" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/V/K/yBuRuxFcR7k-Hu3Tv3Ne" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/V/K/yBuRuxFcR7k-Hu3Tv3Ne" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/V/W/OJwX-3z+9+63CJPDw+6j" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/V/W/OJwX-3z+9+63CJPDw+6j" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/V/W/lz-fEqhP+SPdzL4r322-" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/V/W/lz-fEqhP+SPdzL4r322-" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/W/H/bWW7vVaXlGuXJosJMBYt" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/W/H/bWW7vVaXlGuXJosJMBYt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/X/G/AhPU73smc1XqQaqJ5Wlo" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/X/G/AhPU73smc1XqQaqJ5Wlo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/X/T/b+lBMrqZaWzJniS2Tik0" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/X/T/b+lBMrqZaWzJniS2Tik0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Y/J/bRVYcoHeVGKMAMOWHVyi" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Y/J/bRVYcoHeVGKMAMOWHVyi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Y/R/cY9G-Iiyyq+K-n9-SgXM" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Y/R/cY9G-Iiyyq+K-n9-SgXM" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Y/U/8ONM5J6Dk1tgRAP2JRxr" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Y/U/8ONM5J6Dk1tgRAP2JRxr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Z/F/0Yeq0iing0Jwkna5vDnY" afterPath="$PROJECT_DIR$/symfony/var/cache/prod/pools/xYPQbh+dGl/Z/F/0Yeq0iing0Jwkna5vDnY" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/logs/prod.log" afterPath="$PROJECT_DIR$/symfony/var/logs/prod.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/var/sessions/prod/sess_c01e540be01e2cfae00a0ba3ced7029f" afterPath="$PROJECT_DIR$/symfony/var/sessions/prod/sess_c01e540be01e2cfae00a0ba3ced7029f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/web/css/styles.css" afterPath="$PROJECT_DIR$/symfony/web/css/styles.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -118,11 +31,32 @@
       <file leaf-file-name="HeatmapController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/symfony/src/AppBundle/Controller/HeatmapController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="481">
+              <caret line="150" column="45" lean-forward="false" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
               <folding>
                 <element signature="e#40#64#0#PHP" expanded="true" />
+                <element signature="e#2538#4861#0#PHP" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heatmap.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symfony/app/Resources/views/heatmap/heatmap.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symfony/web/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,38 +64,8 @@
       <file leaf-file-name="DataFormatter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/symfony/src/AppBundle/Services/DataFormatter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="226">
               <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/symfony/app/config/services.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php-fpm/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -199,10 +103,8 @@
         <option value="$PROJECT_DIR$/symfony/web/examples/leaflet-heatmap/index.html" />
         <option value="$PROJECT_DIR$/symfony/web/js/heatmap.js" />
         <option value="$PROJECT_DIR$/nginx/nginx.conf" />
-        <option value="$PROJECT_DIR$/symfony/app/Resources/views/heatmap/heatmap.html.twig" />
         <option value="$PROJECT_DIR$/symfony/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/symfony/web/js/main.js" />
-        <option value="$PROJECT_DIR$/symfony/web/css/styles.css" />
         <option value="$PROJECT_DIR$/cron/Dockerfile" />
         <option value="$PROJECT_DIR$/cron/crontab" />
         <option value="$PROJECT_DIR$/nginx/Dockerfile" />
@@ -211,6 +113,8 @@
         <option value="$PROJECT_DIR$/php-fpm/Dockerfile" />
         <option value="$PROJECT_DIR$/symfony/app/config/services.yml" />
         <option value="$PROJECT_DIR$/symfony/src/AppBundle/Services/DataFormatter.php" />
+        <option value="$PROJECT_DIR$/symfony/web/css/styles.css" />
+        <option value="$PROJECT_DIR$/symfony/app/Resources/views/heatmap/heatmap.html.twig" />
         <option value="$PROJECT_DIR$/symfony/src/AppBundle/Controller/HeatmapController.php" />
       </list>
     </option>
@@ -272,6 +176,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,6 +300,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker-symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heatmap" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -547,12 +547,12 @@
       <option name="presentableId" value="Default" />
       <updated>1499244826120</updated>
       <workItem from="1499244827217" duration="32793000" />
-      <workItem from="1500269337764" duration="12400000" />
+      <workItem from="1500269337764" duration="15377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45193000" />
+    <option name="totallyTimeSpent" value="48170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="1" width="1600" height="1173" extended-state="6" />
@@ -674,6 +674,7 @@
           <caret line="30" column="44" lean-forward="false" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
           <folding>
             <element signature="e#40#64#0#PHP" expanded="true" />
+            <element signature="e#2538#4861#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -707,20 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symfony/app/config/config_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/symfony/app/config/config_prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/symfony/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -732,6 +719,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -815,13 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symfony/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/symfony/src/AppBundle/Controller/TestController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -856,14 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5729">
           <caret line="344" column="16" lean-forward="false" selection-start-line="344" selection-start-column="16" selection-end-line="344" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/symfony/app/Resources/views/heatmap/heatmap.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -926,14 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symfony/web/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="12" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nginx/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -976,18 +941,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/symfony/src/AppBundle/Services/DataFormatter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="226">
           <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony/web/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <marker date="1499955173163" expanded="true" signature="1096:1178" ph="twig: &lt;2 keys&gt;" />
+            <marker date="1499955173163" expanded="true" signature="1173:1178" ph="cache" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony/app/config/config_prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony/app/Resources/views/heatmap/heatmap.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/symfony/src/AppBundle/Controller/HeatmapController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="481">
+          <caret line="150" column="45" lean-forward="false" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
           <folding>
             <element signature="e#40#64#0#PHP" expanded="true" />
+            <element signature="e#2538#4861#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>

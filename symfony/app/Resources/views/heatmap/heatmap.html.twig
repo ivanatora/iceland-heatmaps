@@ -11,6 +11,13 @@
 <body>
 
 <h1>Date and time</h1>
+{% if form is defined %}
+    {% if form.date is defined %}
+        {{ form_label(form.date) }}
+        {{ form_widget(form.date) }}
+    {% endif %}
+    {{ form_widget(form.save) }}
+{% endif %}
 <div id="slider"></div>
 <div id="map"></div>
 

@@ -6,6 +6,9 @@ use AppBundle\AppBundle;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Config\Definition\Exception\Exception;
+use Symfony\Component\Form\Extension\Core\Type\DateTimeType;
+use Symfony\Component\Form\Extension\Core\Type\DateType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\HttpFoundation\Response;
 use AppBundle\Entity\Recording;
 use Doctrine\ORM\EntityManagerInterface;
@@ -19,24 +22,52 @@ class HeatmapController extends Controller
      */
     public function index(Request $request, DataFormatter $dataFormatter)
     {
-        $dataByDate = [];
+        $date = new \DateTime();
+
+        $form = $this->createFormBuilder()
+            ->add('date', DateType::class, [
+                'label' => 'All data for day',
+                'attr' => [
+                    'class' => 'inline',
+                ],
+                'data' => new \DateTime()
+            ])
+            ->add('save', SubmitType::class, [
+                'attr' => [
+                    'class' => 'inline',
+                ],
+                'label' => 'Display'
+            ])
+            ->getForm();
+
+        $form->handleRequest($request);
+        if ($form->isSubmitted() && $form->isValid()){
+            $formData = $form->getData();
+            if (isset($formData['date'])){
+                $date = $formData['date'];
+            }
+        }
+
         $em = $this->getDoctrine()->getManager();
-//        $data = $this->getDoctrine()->getRepository('AppBundle:Recording')
-//            ->cr
         $data = $em->getRepository('AppBundle:Recording')
             ->createQueryBuilder('recording')
             ->select(' recording.name, recording.lat, recording.lon, recording.traffic_10_min, recording.for_date')
-//            ->where('recording.for_date > ?1')
+            ->where('recording.for_date >= ?1')
+            ->andWhere('recording.for_date <= ?2')
             ->orderBy('recording.name', 'asc')
             ->addOrderBy('recording.for_date', 'asc')
-//            ->setParameter(1, '2017-07-17 00:00:00')
+            ->setParameters([
+                1 => $date->format('Y-m-d 00:00:00'),
+                2 => $date->format('Y-m-d 23:59:59')]
+            )
             ->getQuery()->getResult();
 //        print_r($data);
 
         $dataByDate = $dataFormatter->format($data);
 
         return $this->render('heatmap/heatmap.html.twig', [
-            'data' => array_values($dataByDate)
+            'data' => array_values($dataByDate),
+            'form' => $form->createView()
         ]);
     }
 
@@ -109,11 +140,37 @@ class HeatmapController extends Controller
     }
 
     /**
-     * @Route("/heatmap/single/{date}")
+     * @Route("/heatmap/single")
      */
-    public function single($date, Request $request, DataFormatter $dataFormatter)
+    public function single(Request $request, DataFormatter $dataFormatter)
     {
-        $date = date('Y-m-d H:i:s', strtotime($date));
+        $date = '2017-07-17 12:00:00';
+
+        $form = $this->createFormBuilder()
+            ->add('date', DateTimeType::class, [
+                'label' => 'Single snapshot',
+                'attr' => [
+                    'class' => 'inline',
+                ],
+                'data' => new \DateTime('2017-07-17 12:00:00')
+            ])
+            ->add('save', SubmitType::class, [
+                'attr' => [
+                    'class' => 'inline',
+                ],
+                'label' => 'Display'
+            ])
+            ->getForm();
+
+        $form->handleRequest($request);
+        if ($form->isSubmitted() && $form->isValid()){
+            $formData = $form->getData();
+            if (isset($formData['date'])){
+                $date = $formData['date']->format('Y-m-d H:i:s');
+            }
+        }
+
+
         $em = $this->getDoctrine()->getManager();
         $data = $em->getRepository('AppBundle:Recording')
             ->createQueryBuilder('recording')
@@ -128,7 +185,8 @@ class HeatmapController extends Controller
 
 
         return $this->render('heatmap/heatmap.html.twig', [
-            'data' => array_values($dataByDate)
+            'data' => array_values($dataByDate),
+            'form' => $form->createView()
         ]);
     }
 }
