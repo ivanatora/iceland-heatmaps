@@ -17,13 +17,13 @@ services:
         tty: true
         volumes:
             - ./symfony:/var/www/symfony
-            - ./logs/symfony:/var/www/symfony/app/logs
+            - ./logs/symfony:/var/www/symfony/var/logs
 #        links:
 #            - db
     nginx:
         build: ./nginx
         ports:
-            - "80:80"
+            - "801:80"
         links:
             - php
         volumes_from:
